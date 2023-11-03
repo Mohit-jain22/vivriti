@@ -14,6 +14,7 @@ export default function Header(props) {
     <Navbar expand="lg">
       <Container>
         <Navbar.Brand className='m-0 p-0' href="#"><img className='logo-header' src={logo} alt="Logo" /></Navbar.Brand>
+        <Nav.Link className='basket-mobile' href="#action2"> <BsBasket2 className='basket' color={'#000'}/></Nav.Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Form className="d-flex ms-4 search-form">
             <Form.Control

@@ -17,6 +17,9 @@
 .nav-link.active, .nav-link:hover{
     color: #acaeb7;
 }
+.basket-mobile{
+    display: none;
+}
 .search-form .form-control, .search-form .form-control:focus, .search-form .form-control:focus-visible{
     padding: 10px 20px;
     border-radius: 10px;
@@ -337,8 +340,20 @@ footer ul.copyrights-link li a{
         background: #fff;
         padding: 10px 20px;
     }
+    .navbar-nav-scroll{
+        overflow-y: visible;
+    }
+    .navbar-collapse .nav-link:last-child{
+        display: none;
+    }
     .nav-link{
         color: #000;
+    }
+    .basket-mobile{
+        display: block;
+        position: absolute;
+        top: 26px;
+        right: 20px;
     }
     .sale-banner, .product-category, .products{
         margin: 0 20px;

@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
 
-export default function () {
+export default function SalesBanner () {
   return (
     <Container>
         <div className='sale-banner'>

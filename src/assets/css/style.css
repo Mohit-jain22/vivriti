@@ -404,11 +404,18 @@ footer ul.copyrights-link li a{
     footer p, ul.copyrights-link{
         text-align: center;
     }
-    .copyrights{
+    footer .copyrights{
         margin-top: 16px !important;
     }
-    ul.copyrights-link{
+    footer ul.copyrights-link{
         margin: 0;
+    }
+    footer ul.copyrights-link li a{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    footer p{
+        font-size: 14px;
     }
   }
   @media (max-width: 550px) {

@@ -85,7 +85,7 @@ export default function Footer() {
            <Row>
                 <Col lg={6}>
                     <Row className='mt-5 copyrights'>
-                        <Col lg={8}>
+                        <Col lg={10} md={12}>
                             <p>© 2010 - 2023 All Rights Reserved</p>
                             <ul className='copyrights-link'>
                                 <li><a href="#<">Privacy Center</a></li>

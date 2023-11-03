@@ -5,7 +5,7 @@ import { AiOutlineHeart } from "react-icons/ai";
 
 export default function Product(props) {
   return (
-    <Col lg={3} sm={6}>
+    <Col lg={3} sm={6} md={6}>
         <div className='product'>
           <div className='wislist'><AiOutlineHeart className='wishlist-icon'/></div>
           <img className='product-image' src = {props.thumbnail} alt={props.title}/>

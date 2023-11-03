@@ -289,7 +289,16 @@ footer ul.copyrights-link li a{
     font-size: 18px;
     line-height: 20px;
 }
-@media (max-width: 767px) {
+@media (max-width: 1500px) {
+.search-form{
+    position: relative;
+    width: 50%;
+}
+.product img.product-image{
+    height: 300px;
+}
+}
+@media (max-width: 991px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
         max-width: 100%;
         padding: 0;    
